@@ -8,6 +8,7 @@ data "aws_iam_policy_document" "assume_role" {
     }
 
     actions = ["sts:AssumeRole"]
+    # make sure to add an condition for principal organization
   }
 }
 

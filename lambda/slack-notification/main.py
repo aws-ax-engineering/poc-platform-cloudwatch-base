@@ -41,7 +41,6 @@ ENCRYPTED_HOOK_URL = os.environ['kmsEncryptedHookUrl']
 # The Slack channel to send a message to stored in the slackChannel environment variable
 SLACK_CHANNEL = os.environ['slackChannel']
 
-#HOOK_URL = "https://hooks.slack.com/services/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"
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)

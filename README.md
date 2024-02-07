@@ -5,10 +5,10 @@ This pipeline manages those CloudWatch configurations which are Account level an
 ### SNS topics for sending message to pre-defined slack channels  
 
 _nonprod account_ (pocdev)
-arn:aws:sns:us-east-1:814911079119:slack_notification_topic  >> Slack #aws-engineering-poc-events
+arn:aws:sns:us-east-1:<prod-aws-account-id>:slack_notification_topic  >> Slack #aws-engineering-poc-events
 
 _prod account_ (nonprod, prod, mapi)
-arn:aws:sns:us-east-1:599654392735:slack_notification_topic  >> Slack #aws-engineering-poc-events
+arn:aws:sns:us-east-1:<prod-aws-account-id>:slack_notification_topic  >> Slack #aws-engineering-poc-events
 
 **example simple usage**  
 
